@@ -16,3 +16,11 @@ Work in progress—but learning in progress, too.
 ├── Python-Tools/            # Scripts or automation for bounty or school
 └── Resources.md             # Links to cheat sheets, videos, writeups
 
+## 🎯 Current Focus
+
+- Gaining hands-on experience in bug bounty hunting using platforms like HackerOne and Bugcrowd  
+- Studying web vulnerabilities including XSS, IDOR, and CSRF via PortSwigger Labs  
+- Practicing recon, payload testing, and documentation workflows  
+- Sharpening Python automation skills for security tooling  
+- Building a strong cybersecurity portfolio to support my goal of becoming an Application Security Analyst
+Add Current Focus
