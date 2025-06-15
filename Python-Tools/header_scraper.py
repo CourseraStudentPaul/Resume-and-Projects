@@ -1,7 +1,14 @@
 import requests
 
-url = "https://example.com"
-response = requests.get(url)
+def main():
+    url = input("Enter the URL to analyze (e.g., https://example.com): ")
+    try:
+        response = requests.get(url)
+        print("\nResponse Headers:\n")
+        for header, value in response.headers.items():
+            print(f"{header}: {value}")
+    except requests.exceptions.RequestException as e:
+        print(f"Error fetching the URL: {e}")
 
-for header, value in response.headers.items():
-    print(f"{header}: {value}")
+if __name__ == "__main__":
+    main()
